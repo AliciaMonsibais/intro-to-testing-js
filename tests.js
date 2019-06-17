@@ -26,4 +26,11 @@ describe("add", function(){
     })
 });
 
+describe("sayHello", function(){
+    it('should be a defined function', function(){
+        expect(typeof sayHello).toBe('function');
+    });
+});
+
+
 //do not make conditional statements. try to solve the problem. solve what the function should be doing instead of passing the tests//
