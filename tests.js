@@ -45,4 +45,4 @@ describe("sayHello", function(){
 });
 
 
-//do not make conditional statements. try to solve the problem. solve what the function should be doing instead of passing the tests//
+//do not make conditional statements. try to solve the problem. solve what the function should be doing instead of passing the tests.//
