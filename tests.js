@@ -13,3 +13,17 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+describe("add", function(){
+    it('should be a defined function', function(){
+        expect(typeof add).toBe('function');
+    });
+    it('should return 5 when adding 3 and 2.', function(){
+        expect(add(3,2)).toBe(5);
+    });
+    it('should return false when adding two strings', function() {
+        expect (add("black", "bird"));
+    })
+});
+
+//do not make conditional statements. try to solve the problem. solve what the function should be doing instead of passing the tests//
