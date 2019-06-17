@@ -11,6 +11,6 @@ function add (num1, num2) {
     }
 }
 
-function sayHello() {
-    return "Hello";
+function sayHello(name) {
+    return ("Hello" + name);
 }
