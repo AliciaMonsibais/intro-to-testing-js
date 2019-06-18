@@ -11,6 +11,17 @@ function add (num1, num2) {
     }
 }
 
+// function sayHello(input){
+//     if (input === "Pat"){
+//         return "Hello, Pat!";
+//     }
+//     else if (input === "Alex"){
+//         return "Hello, Alex!";
+//     } else {
+//         return "Hello, Jane!";
+//     }
+// }
+
 function sayHello(name) {
     return ("Hello, " + name + "!");
 }
